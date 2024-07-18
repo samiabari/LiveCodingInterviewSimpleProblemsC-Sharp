@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
            
-            Console.WriteLine(CheckPalindromReverse.Check("lalall"));
-            Console.WriteLine(CheckPalindromWhile.Check("mada"));
+            Console.WriteLine(CheckPalindromReverse.Check("lallal"));
+            Console.WriteLine(CheckPalindromWhile.Check("lallal"));
         }
     }
 }
