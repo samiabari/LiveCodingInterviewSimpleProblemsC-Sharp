@@ -42,6 +42,12 @@ namespace Anagram
             }
 
 
+            foreach (int c in c1.Values)
+            {
+                if(c!=0)
+                    { return false; }
+            }
+
             return true;
         }
     }
