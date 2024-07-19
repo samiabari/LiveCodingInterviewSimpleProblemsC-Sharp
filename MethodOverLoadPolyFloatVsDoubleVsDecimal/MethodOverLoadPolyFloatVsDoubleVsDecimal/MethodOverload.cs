@@ -18,9 +18,14 @@ namespace MethodOverLoadPolyFloatVsDoubleVsDecimal
         }
         public static void Add(double a, double b)
         {
-            decimal c = Convert.ToDecimal(a * b);
+            double c = a * b;
            
         }
-       
+        public static void Add(int a, int b)
+        {
+            decimal c = Convert.ToDecimal(a * b);
+
+        }
+
     }
 }
